@@ -19,7 +19,7 @@
   <header class="site-header wrap">
     <a href="#inicio" class="logo" aria-label="xLauta7, volver al inicio"><span class="logo-icon">&gt;_</span><span>xLauta<span class="logo-muted">7</span><span class="logo-suffix"> / security</span></span></a>
     <nav aria-label="Navegación principal">
-      <a href="#sobre-mi">Perfil</a><a href="#experiencia">Experiencia</a><a href="#proyectos">Proyectos</a><a href="#contenido-publico">Contenido</a><a href="#contacto">Contacto</a>
+      <a href="#sobre-mi">Perfil</a><a href="#experiencia">Experiencia</a><a href="#writeups">Writeups</a><a href="#proyectos">Proyectos</a><a href="#contenido-publico">Contenido</a><a href="#contacto">Contacto</a>
     </nav>
   </header>
   <main id="contenido">
@@ -30,7 +30,7 @@
         <h1 id="hero-title">Infraestructura.<br><span class="accent">Seguridad ofensiva.</span><br>Investigación.</h1>
         <p class="lead">Estudiante de Analista en Infraestructura Informática en ORT Uruguay y certificado <strong>CompTIA Security+ (SY0-701)</strong>. Exploro sistemas, redes y vulnerabilidades mediante práctica en laboratorios, CTF y proyectos propios.</p>
         <div class="actions">
-          <a class="button button-primary" href="#experiencia">Ver experiencia práctica <span aria-hidden="true">↗</span></a>
+          <a class="button button-primary" href="blog/index.html">Explorar mis writeups <span aria-hidden="true">↗</span></a>
           <a class="button button-secondary" href="https://www.tiktok.com/@lauta_poggi" target="_blank" rel="noopener noreferrer">Mi TikTok <span aria-hidden="true">↗</span></a>
         </div>
         <p class="hero-footnote">Sin títulos inflados ni proyectos inventados: este sitio crece con resultados que puedo explicar y defender.</p>
@@ -61,11 +61,11 @@
       </div>
     </section>
     <section class="section wrap" id="experiencia" aria-labelledby="experience-title">
-      <div class="section-heading"><span class="section-index">02 / EXPERIENCIA PRÁCTICA</span><h2 id="experience-title">Lo que ya puse en práctica.</h2><p>Experiencias de aprendizaje reales. Los writeups públicos llegarán cuando estén revisados y listos para compartir.</p></div>
+      <div class="section-heading"><span class="section-index">02 / EXPERIENCIA PRÁCTICA</span><h2 id="experience-title">Lo que ya puse en práctica.</h2><p>Experiencias de aprendizaje reales, con sus procedimientos documentados en la sección Research / Writeups.</p></div>
       <div class="experience-grid">
         <article class="experience-item">
           <span class="experience-number">04</span><h3>OEA Cyber Challenge Uruguay 2026</h3>
-          <p>Cuatro desafíos resueltos en forense, criptografía, web y reversing durante un CTF. Próximo paso: documentar el procedimiento y las ayudas recibidas.</p>
+          <p>Cuatro desafíos abordados con resultado en forense, criptografía, web y reversing. Ya están documentados los procedimientos, las hipótesis y la asistencia recibida.</p>
           <div class="mini-tags"><span>CTF</span><span>Forensics</span><span>Crypto</span><span>Web</span></div>
         </article>
         <article class="experience-item">
@@ -80,8 +80,21 @@
         </article>
       </div>
     </section>
+    <section class="section wrap" id="writeups" aria-labelledby="writeups-title">
+      <div class="research-intro">
+        <div class="section-heading"><span class="section-index">03 / RESEARCH &amp; WRITEUPS</span><h2 id="writeups-title">Del desafío al aprendizaje documentado.</h2><p>Cuatro artículos de mi primer CTF: hipótesis, comandos, errores, resultados y qué pasos todavía necesito repetir sin asistencia.</p></div>
+        <a class="button button-secondary" href="blog/index.html">Ver todos los artículos ↗</a>
+      </div>
+      <div class="research-grid">
+        <a class="research-tile" href="blog/informe-de-danos.html"><div class="research-meta"><span>FORENSICS</span><span>30 PTS</span></div><h3>Informe de daños</h3><p>Cómo recuperé un ZIP escondido detrás de un supuesto PDF mediante análisis hexadecimal y carving.</p><span class="research-link">Leer writeup ↗</span></a>
+        <a class="research-tile" href="blog/notas-gemelas-filtradas.html"><div class="research-meta"><span>CRYPTO</span><span>50 PTS</span></div><h3>Notas gemelas filtradas</h3><p>Dos mensajes cifrados con el mismo flujo XOR: prefijos conocidos y pruebas de una hipótesis.</p><span class="research-link">Leer writeup ↗</span></a>
+        <a class="research-tile" href="blog/portal-regional-clearance.html"><div class="research-meta"><span>WEB SECURITY</span><span>35 PTS</span></div><h3>Portal regional Clearance</h3><p>Lectura de una API y un bypass de autenticación NoSQL Injection en un reto autorizado.</p><span class="research-link">Leer writeup ↗</span></a>
+        <a class="research-tile" href="blog/senales-secretas-esp32.html"><div class="research-meta"><span>REVERSE ENGINEERING</span><span>85 PTS</span></div><h3>Señales secretas — ESP32</h3><p>De símbolos ELF y punteros a cadenas Morse para reconstruir un mensaje oculto.</p><span class="research-link">Leer writeup ↗</span></a>
+      </div>
+      <p class="research-aside">CTF autorizado · Se identifica qué fue probado, reconstruido o asistido · Sin atribuir hallazgos externos.</p>
+    </section>
     <section class="section wrap" id="proyectos" aria-labelledby="projects-title">
-      <div class="section-heading"><span class="section-index">03 / PROYECTOS Y DOCUMENTACIÓN</span><h2 id="projects-title">Próximas publicaciones técnicas.</h2><p>Las ideas se muestran como ideas. A medida que termine versiones funcionales, agregaré código, pruebas y resultados verificables.</p></div>
+      <div class="section-heading"><span class="section-index">04 / PROYECTOS Y DOCUMENTACIÓN</span><h2 id="projects-title">Próximas publicaciones técnicas.</h2><p>Las ideas se muestran como ideas. A medida que termine versiones funcionales, agregaré código, pruebas y resultados verificables.</p></div>
       <div class="project-grid">
         <article class="project-card featured">
           <div class="card-top"><span class="card-id">PROYECTO 001</span><span class="pill pill-progress">Planificado</span></div>
@@ -92,27 +105,27 @@
           <p class="card-note">Siguiente hito: primer módulo funcional, pruebas y README.</p>
         </article>
         <article class="project-card">
-          <div class="card-top"><span class="card-id">DOCUMENTACIÓN 001</span><span class="pill">En preparación</span></div>
+          <div class="card-top"><span class="card-id">DOCUMENTACIÓN 001</span><span class="pill">Cuatro publicaciones</span></div>
           <div class="project-icon" aria-hidden="true">#</div>
           <h3>Writeups: CTF y laboratorios</h3>
           <p>Documentación reproducible de ejercicios de PortSwigger y desafíos CTF: contexto, metodología, evidencias, dificultades y aprendizajes.</p>
           <div class="chips"><span>HTTP</span><span>CTF</span><span>Metodología</span></div>
-          <p class="card-note">Siguiente hito: primer writeup público revisado.</p>
+          <p class="card-note">Cuatro writeups de OEA publicados · siguiente hito: documentar laboratorios web.</p>
         </article>
       </div>
     </section>
     <section class="section wrap" id="contenido-publico" aria-labelledby="content-title">
       <div class="content-panel">
-        <div><span class="section-index">04 / COMPARTIENDO EL PROCESO</span><h2 id="content-title">También documento mi camino en TikTok.</h2><p>Comparto experiencias de estudio, certificaciones y aprendizaje de ciberseguridad. No busco presentarme como gurú: muestro avances, herramientas y desafíos del proceso.</p><a class="button button-primary" href="https://www.tiktok.com/@lauta_poggi" target="_blank" rel="noopener noreferrer">TikTok · @lauta_poggi <span aria-hidden="true">↗</span></a></div>
+        <div><span class="section-index">05 / COMPARTIENDO EL PROCESO</span><h2 id="content-title">También documento mi camino en TikTok.</h2><p>Comparto experiencias de estudio, certificaciones y aprendizaje de ciberseguridad. No busco presentarme como gurú: muestro avances, herramientas y desafíos del proceso.</p><a class="button button-primary" href="https://www.tiktok.com/@lauta_poggi" target="_blank" rel="noopener noreferrer">TikTok · @lauta_poggi <span aria-hidden="true">↗</span></a></div>
         <div class="content-handle" aria-label="Usuario de TikTok"><span class="handle-icon" aria-hidden="true">@</span><strong>@lauta_poggi</strong><span>Estudios · Ciberseguridad · Progreso real</span></div>
       </div>
     </section>
     <section class="contact-section wrap" id="contacto" aria-labelledby="contact-title">
-      <span class="section-index">05 / CONECTEMOS</span>
+      <span class="section-index">06 / CONECTEMOS</span>
       <div class="contact-inner">
-        <div><h2 id="contact-title">Construyendo un perfil técnico, paso a paso.</h2><p>Este es el punto de partida. Los enlaces a repositorios, writeups y proyectos se incorporarán cuando estén listos para revisión pública.</p></div>
+        <div><h2 id="contact-title">Construyendo un perfil técnico, paso a paso.</h2><p>El blog ya reúne cuatro writeups del CTF OEA; los próximos proyectos y laboratorios se incorporarán cuando estén listos para revisión pública.</p></div>
         <div class="contact-links" aria-label="Enlaces y canales">
-          <a href="https://github.com/Lautx777" target="_blank" rel="noopener noreferrer">GitHub <small>@Lautx777 ↗</small></a>
+          <a href="https://github.com/xlauta7" target="_blank" rel="noopener noreferrer">GitHub <small>@xlauta7 ↗</small></a>
           <a href="https://www.linkedin.com/in/lautaro-poggi-4075b335a" target="_blank" rel="noopener noreferrer">LinkedIn <small>Lautaro Poggi ↗</small></a>
           <a href="https://www.tiktok.com/@lauta_poggi" target="_blank" rel="noopener noreferrer">TikTok <small>@lauta_poggi ↗</small></a>
           <a href="mailto:lpoggi2003@gmail.com">Correo <small>lpoggi2003@gmail.com</small></a>
@@ -120,7 +133,7 @@
       </div>
     </section>
   </main>
-  <footer class="wrap site-footer"><span>© <span id="year">2026</span> Lautaro Poggi · xLauta7</span><span>Portafolio en evolución · v1.0</span></footer>
+  <footer class="wrap site-footer"><span>© <span id="year">2026</span> Lautaro Poggi · xLauta7</span><span>Portafolio en evolución · v1.1</span></footer>
   <script src="script.js" defer></script>
 </body>
 </html>
